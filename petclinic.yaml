@@ -1,5 +1,6 @@
 ---
-- hosts: http://pevzx98261dns.eastus2.cloudapp.azure.com
+- hosts: localhost
+  connection : localhost
   name: "Petclinic App Server Deployment"
   become: yes
   roles:
